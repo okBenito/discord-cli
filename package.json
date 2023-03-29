@@ -1,0 +1,26 @@
+{
+	"name": "discord-cli",
+	"version": "1.0.0",
+	"description": "CLI for discord.js",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"keywords": [
+		"cli",
+		"discord",
+		"bot",
+		"discord.js"
+	],
+	"author": {
+		"name": "Benito"
+	},
+	"license": "GNU GENERAL PUBLIC LICENSE",
+	"dependencies": {
+		"chalk": "4.1.2",
+		"discord.js": "^14.8.0",
+		"fs-extra": "^11.1.1",
+		"inquirer": "8.2.5",
+		"nanospinner": "^1.1.0"
+	}
+}
